@@ -1,0 +1,19 @@
+#include "pch.h" // Some compilers won't compile content before the pre-compiled header file(s) by default. 
+#include <iostream>
+
+using namespace std; // no std:: required for cout, cin
+
+int main()
+{
+    int anzahl;
+    double preis;
+    double summe;
+
+    anzahl = 5;
+    preis = 9.90;
+    summe = anzahl * preis;
+
+    cout << "Anzahl: " << anzahl << endl;
+    cout << "Preis: " << preis << " Euro" << endl;
+    cout << "Gesamtpreis: " << summe << " Euro" << endl;
+}
